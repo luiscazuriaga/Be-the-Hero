@@ -1,4 +1,4 @@
-//todo> aqui se criou a tabela incidents, as sintaxes podem ser encontradas no knex
+//todo>criando a tabela incidents, as sintaxes podem ser encontradas nos documentos do knex
 exports.up = function(knex) {
     return knex.schema.createTable('incidents', function(table){
       table.increments();

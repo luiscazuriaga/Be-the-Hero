@@ -1,6 +1,6 @@
 //?basicamente aqui esta o backend do site, porem existem varias ramificações linkadas a esta
 //? que de fato formam todo o backend...como outras configs que não necessariamente estão
-//?linkadas, porem são utilizadas para o funcionamento deste arquivo js
+//?linkadas, porem são utilizadas para o funcionamento de um todo
 
 const express = require('express');
 const cors = require('cors');

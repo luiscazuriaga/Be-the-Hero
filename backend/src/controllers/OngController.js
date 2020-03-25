@@ -1,5 +1,5 @@
 //? demenbramento do index.js
-//todo> serve para fazer a funções que podem ser utilizadas no promise do index.js
+//todo> serve para fazer a funções que podem ser utilizadas no index.js
 
 
 const crypto = require('crypto');

@@ -32,7 +32,7 @@ module.exports = {
 
    const {title,description,value} = request.body;
    const ong_id = request.headers.authorization;
-      //*mesmo o nome do header tendo maisculo aqui se escreve-se minisculo
+      //*mesmo o nome do header tendo maisculo aqui escreve-se minisculo
       // request.headers;
 
    const [id] = await connection('incidents').insert({
