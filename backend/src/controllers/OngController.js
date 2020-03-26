@@ -16,7 +16,7 @@ module.exports = {
 },
 
     
-    async create(resquest,response) {
+    async create(request,response) {
 
         const {name, email, whatsapp, city, uf} = request.body;
          
