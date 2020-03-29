@@ -71,7 +71,7 @@ export default function Profile(){
                             <strong>DESCRIÇÃO:</strong>
                             <p>{incident.description}</p>
 
-                            <strong>VALOR:120</strong>
+                            <strong>VALOR:</strong>
                              <p>{Intl.NumberFormat('pt-BR',{style : 'currency', currency:'BRL'}).format(incident.value)}</p>
 
 
