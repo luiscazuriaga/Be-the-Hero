@@ -36,9 +36,9 @@
 </p>
 
 <p align="center">
-  <a href="#computer-languages">Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-linguagens">Linguagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#memo-licença">Licença</a>
 </p>
 
 ### :wrench: Projeto
@@ -71,7 +71,7 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 
 
 
-## :computer: Languages
+## :computer: Linguagens
 
 - **Javascript**
 - **NodeJS**
@@ -79,7 +79,7 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 - **CSS**
 - **SQL**
 
-## :books: Technologies
+## :rocket: Tecnologias
 - ### Backend 
 	* **celebrate**:  ^12.0.1
 	* **cors**:  ^2.8.5
@@ -128,6 +128,13 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 		* **react-native-screens**:  2.0.0-alpha.12
 		* **react-native-web**:  ~0.11.7
 	* **styled-components**:  ^5.0.1
+	
+	
+## :memo: Licença
+
+This project is under MIT. See at here [LICENSE](/LICENSE) for more informations.
+
+---
 
 <p align="center">by <strong>Luis Cazuriaga:wave: </p>
 
