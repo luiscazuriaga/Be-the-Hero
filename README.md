@@ -36,9 +36,14 @@
 </p>
 
 <p align="center">
+  <a href="#wrench-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#star-ongs">ONGs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#recycle-contribuir">Contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-linguagens">Linguagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   
+	
 </p>
 <p align="center">
 <a "href="https://insomnia.rest/run/?label=Be%20The%20Hero&amp;uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fbe-the-hero%2Fmaster%2FInsomnia.json" rel="nofollow" ><img src="https://camo.githubusercontent.com/a47cc6a6b74e0edbba2a73d2f727eaf4ccd1d855/68747470733a2f2f696e736f6d6e69612e726573742f696d616765732f72756e2e737667" alt="Run in Insomnia" data-canonical-src="https://insomnia.rest/images/run.svg" style="max-width:100%;"></a>
@@ -54,7 +59,7 @@ na criação da conta, para que as pessoas possam entrar em contato, após isso 
 
 
 
-### :star: Qual a importância de ajudar uma ONG? <br> 
+### :star: ONGs
 Ao realizar uma doação, sentimos que estamos contribuindo para melhorar a vida do outro,
 e por vezes o que é tão pouco para nós, pode fazer uma enorme diferença ao proximo,
 sem contar que não a nada melhor do que saber que o sorriso do outro e por sua causa,
@@ -75,7 +80,7 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 
 
 
-### :recycle: Como contribuir
+### :recycle: Contribuir
 
 - Fork esse repositório;
 - Crie uma branch com a sua feature: `git checkout -b my-feature`
@@ -94,7 +99,7 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 
 ## :rocket: Tecnologias
 - ### Backend 
-	<details>
+	<details open>
         <summary>extender</summary>
         <ul>
             <li><h4> celebrate:  ^12.0.1</h4></li> 
