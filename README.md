@@ -40,24 +40,37 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
+<p align="center">
+<a "href="https://insomnia.rest/run/?label=Be%20The%20Hero&amp;uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fbe-the-hero%2Fmaster%2FInsomnia.json" rel="nofollow" ><img src="https://camo.githubusercontent.com/a47cc6a6b74e0edbba2a73d2f727eaf4ccd1d855/68747470733a2f2f696e736f6d6e69612e726573742f696d616765732f72756e2e737667" alt="Run in Insomnia" data-canonical-src="https://insomnia.rest/images/run.svg" style="max-width:100%;"></a>
+</p>
 
 ### :wrench: Projeto
 
 <b>Be the Hero</b> é um projeto que tem como escopo ajudar, de maneira <b>financeira</b>, uma instituição de caridade,
 atraves da divulgação de suas causas para que as pessoas possam ver e colaborar com as instituições.
 
+Funciona da seguinte forma, a ONG pode criar uma conta para que possa postar seus casos, fornecendo nome, local, whatsapp e email
+na criação da conta, para que as pessoas possam entrar em contato, após isso a ONG cadastra seus casos informando o titulo, do que se trata e o valor, com isso no aplicativo as pessoas poderão ver os casos, ao escolher um caso basta clicar em "ver mais detalhes" para saber mais sobre o caso escolhido e depois clicando em uma das opções whatsapp ou email entrar em contato com a ONG para fazer a doação.
+
+
+
 ### :star: Qual a importância de ajudar uma ONG? <br> 
 Ao realizar uma doação, sentimos que estamos contribuindo para melhorar a vida do outro,
 e por vezes o que é tão pouco para nós, pode fazer uma enorme diferença ao proximo,
 sem contar que não a nada melhor do que saber que o sorriso do outro e por sua causa,
-que a felicidade de alguem, mesmo que momentanea, foi proporcionada por você
+que a felicidade de alguem, mesmo que momentanea, foi proporcionada por você.
 
-### Experiencia da Semana Omnistack
+
+<h2> 
+<img alt="RocketSeat" src="frontend/src/assets/rocketseat.svg" width="40px" border-radius:10px/>
+Experiencia da Semana Omnistack 11
+</h2>
+
 Foi a primeira vez em que programei algo de fato, do início ao fim, e para não dizer que não tinha experiencia,
 tive meu primeiro contato com JavaScript e Ecma6+ no curso Starter da RocketSeat, realmente foi de grande ajuda.
 
 Apesar de nunca ter programado algo, aceitei a Semana Omnistack como um desafio, pois diziam que era pra pessoas do ramo e experientes, embora pareça que somente “copiamos” o código, eu aprendi muito, mas eu acho que isso vai muito do estudante de não se contentar 
-com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi como aprender a prática e a teoria de tabela, junto com conceitos, resolução de problemas, aprender a ler documentação, buscar por informação e além de tudo aprendi como é estar em uma comunidade unida, porque mesmo que tenha solucionado a maioria dos problemas sozinho por querer aprender como se em uma prova estivesse :satisfied:, quando precisei da comunidade ela estava la pra ajudar, assim como também ajudei muitos e poder fazer parte de tudo isso foi realmente muito massa é uma experiência que levo pra vida, muito obrigado RocketSeat
+com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi como aprender a prática e a teoria de tabela, junto com conceitos, resolução de problemas, aprender a ler documentação, buscar por informação e além de tudo aprendi como é estar em uma comunidade unida, porque mesmo que tenha solucionado a maioria dos problemas sozinho por querer aprender como se em uma prova estivesse :satisfied:, quando precisei da comunidade ela estava la pra ajudar, assim como também ajudei, e poder fazer parte de tudo isso foi realmente muito massa é uma experiência que levo pra vida, muito obrigado RocketSeat
 
 
 
