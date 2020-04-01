@@ -132,7 +132,7 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 	
 ## :memo: Licença
 
-This project is under MIT. See at here [LICENSE](/LICENSE) for more informations.
+Este projeto está no MIT. Veja aqui [LICENSE] (/ LICENSE) para mais informações.
 
 ---
 
