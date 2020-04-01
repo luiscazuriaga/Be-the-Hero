@@ -1,6 +1,6 @@
-<h4 align="center">
-<img src="/frontend/src/assets/logo.svg" width="250px" /><br>
-</h4>
+<h1 align="center">
+    <img alt="Be the Hero" src="frontend/src/assets/BTHtitle.png"  width="800px" style="border-radius:16px;"/>
+</h1>
 
 <p align="center">
   <img alt="Languagues" src="https://img.shields.io/github/languages/count/luis-cazuriaga/be-the-hero">
