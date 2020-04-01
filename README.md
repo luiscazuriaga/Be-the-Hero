@@ -94,55 +94,74 @@ com pouco, de buscar saber sempre mais do que lhe é passado, essa semana foi co
 
 ## :rocket: Tecnologias
 - ### Backend 
-	* **celebrate**:  ^12.0.1
-	* **cors**:  ^2.8.5
-	* **cross-env**:  ^7.0.2
-	* **dotenv**:  ^8.2.0
-	* **express**:  ^4.17.1
-	* **knex**:  ^0.20.13
-	* **nodemailer**:  ^6.4.6
-	* **nodemailer-express-handlebars**:  ^4.0.0
-	* **nodemon**: ^2.0.2 
-	* **sqlite3**:  ^4.1.1
+	<details>
+        <summary>extender</summary>
+        <ul>
+            <li><h4> celebrate:  ^12.0.1</h4></li> 
+            <li><h4>cors:  ^2.8.5</h4></li> 
+            <li><h4>cross-env:  ^7.0.2</h4></li> 
+            <li><h4>dotenv:  ^8.2.0</h4></li> 
+            <li><h4>express:  ^4.17.1</h4></li> 
+            <li><h4>knex:  ^0.20.13</h4></li> 
+            <li><h4>nodemailer:  ^6.4.6</h4></li> 
+            <li><h4>nodemailer-express-handlebars:  ^4.0.0</h4></li> 
+            <li><h4>nodemon: ^2.0.2 </h4></li> 
+            <li><h4>sqlite3:  ^4.1.1</h4></li> 
+        </ul>
+    </details>
 
 
 - ### Web
-	* **@testing-library/jest-dom**:  ^4.2.4
-	* **@testing-library/react**:  ^9.3.2
-	* **@testing-library/user-event**:  ^7.1.2
-	* **axios**:  ^0.19.2
-	* **polished**:  ^3.5.1
-	* **react**:  ^16.13.1
-	* **react-dom**:  ^16.13.1
-	* **react-icons**:  ^3.9.0
-	* **react-router-dom**:  ^5.1.2
-	* **react-scripts**:  3.4.1",
-	* **react-toastify**:  ^5.5.0
-	* **styled-components**:  ^5.0.1
-
+	<details>
+        <summary>extender</summary>
+        <ul>
+            <li><h4> @testing-library/jest-dom:  ^4.2.4</h4></li> 
+            <li><h4>@testing-library/react:  ^9.3.2</h4></li> 
+            <li><h4>@testing-library/user-event:  ^7.1.2</h4></li> 
+            <li><h4>axios:  ^0.19.2</h4></li> 
+            <li><h4>polished:  ^3.5.1</h4></li> 
+            <li><h4>react:  ^16.13.1</h4></li> 
+            <li><h4> react-dom:  ^16.13.1</h4></li> 
+            <li><h4>react-icons:  ^3.9.0</h4></li> 
+            <li><h4>react-router-dom:  ^5.1.2</h4></li> 
+            <li><h4>react-scripts:  3.4.1</h4></li> 
+        </ul>
+    </details>
+	
 - ### Mobile
-	- #### React navigation
-		* **@react-native-community/masked-view**: 0.1.5
-		* **@react-navigation/drawer**:  ^5.3.4
-		* **@react-navigation/native**:  ^5.1.3
-		* **@react-navigation/stack**:  ^5.2.6
-	* **axio**s:  ^0.19.2
-	* **expo**:  ~36.0.0
-	* **expo-constants**:  ~8.0.0
-	* **expo-mail-composer**:  ~8.0.0
-	* **intl**:  ^1.2.5
-	- #### React
-		* **react**:  ~16.9.0
-		* **react-dom**:  ~16.9.0
-		* **react-native**:  https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz
-		* **react-native-gesture-handler**:  ~1.5.0
-		* **react-native-reanimated**:  ~1.4.0
-		* **react-native-safe-area-contex**:  0.6.0
-		* **react-native-screens**:  2.0.0-alpha.12
-		* **react-native-web**:  ~0.11.7
-	* **styled-components**:  ^5.0.1
+	 <details>
+        <summary>extender</summary>
+        <ul>
+            <li><h4>React navigation</h4>
+                 <ul>
+                     <li><h4>@react-native-community/masked-view: 0.1.5</h4></li>
+                     <li><h4>@react-navigation/native:  ^5.1.3</h4></li>
+                 </ul>
+            </li> 
+            <li><h4>axios:  ^0.19.2</h4></li> 
+            <li><h4>expo:  ~36.0.0</h4></li> 
+            <li><h4>expo-constants:  ~8.0.0</h4></li> 
+            <li><h4>expo-mail-composer:  ~8.0.0</h4></li> 
+            <li><h4>intl:  ^1.2.</h4></li> 
+        </ul>
+    </details>
 	
-	
+- ### React
+ 
+     <details>
+        <summary>extender</summary>
+        <ul>
+            <li><h4>react:  ~16.9.0</h4></li> 
+            <li><h4> react-dom:  ~16.9.0</h4></li> 
+            <li><h4> react-native:  https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz</h4></li> 
+            <li><h4> react-native-gesture-handler:  ~1.5.0</h4></li> 
+            <li><h4> react-native-reanimated:  ~1.4.0</h4></li> 
+            <li><h4> react-native-safe-area-contex:  0.6.0</h4></li> 
+            <li><h4> react-native-screens:  2.0.0-alpha.12</h4></li> 
+            <li><h4>react-native-web:  ~0.11.7</h4></li> 
+        </ul>
+    </details>
+
 ## :memo: Licença
 
 Este projeto está no MIT. Veja aqui [LICENSE](/LICENSE) para mais informações.
