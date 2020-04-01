@@ -60,7 +60,8 @@ na criação da conta, para que as pessoas possam entrar em contato, após isso 
 
 
 ### :star: ONGs
-Ao realizar uma doação, sentimos que estamos contribuindo para melhorar a vida do outro,
+#### A importancia da contribuição para ONGs
+Ao realizar uma doação, estamos contribuindo para melhorar a vida do outro,
 e por vezes o que é tão pouco para nós, pode fazer uma enorme diferença ao proximo,
 sem contar que não a nada melhor do que saber que o sorriso do outro e por sua causa,
 que a felicidade de alguem, mesmo que momentanea, foi proporcionada por você.
