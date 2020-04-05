@@ -1,12 +1,24 @@
-import React from 'react';
+import React ,{useContext} from 'react';
 import {Feather} from '@expo/vector-icons';
 import { useNavigation , useRoute } from '@react-navigation/native';
-import { View , Image , Text ,TouchableOpacity, Linking} from 'react-native';
+import { Image , Linking} from 'react-native';
 import * as MailComposer from 'expo-mail-composer';
+import { ThemeContext } from 'styled-components'
 
-import LogoImg from '../../assets/logo.png';
 
-import styles from './styles';
+import {
+  Container,
+  Header,
+  ButtonTouchable,
+  Incident,
+  IncidentProperty,
+  IncidentValue,
+  ContactBox,
+  HeroTitle,
+  HeroDescription,
+  Actions,
+  ActionTouchable,
+  ActionText,} from './styles';
 
 
 export default function Detail(){
@@ -15,8 +27,6 @@ export default function Detail(){
 
   const incident = route.params.incident;
   const message = `olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso ${incident.title} com o valor de ${Intl.NumberFormat('pt-BR',{style: 'currency', currency: 'BRL'}).format(incident.value)}`;       
-
-
 
   function navigateBack(){
       navigation.goBack()
@@ -34,49 +44,54 @@ export default function Detail(){
     Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}&text=${message}`);
   }
 
+ 
+
+  const { logo } = useContext(ThemeContext)
+
   return(
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <Image source={LogoImg} />
+    <Container>
+      <Header>
+        <Image source={logo} />
 
-          <TouchableOpacity onPress={navigateBack}>
+          <ButtonTouchable onPress={navigateBack}>
             <Feather name="arrow-left" size={28} color="#E02041" />
-          </TouchableOpacity>
-      </View>
+          </ButtonTouchable>
+      </Header>
 
-      <View style={styles.incident}>
-      <Text style={[styles.incidentProperty,{marginTop:0}]}>ONG:</Text>
-          <Text style={styles.incidentValue}> {incident.name} de {incident.city}/{incident.uf}  </Text>
+      <Incident>
+      <IncidentProperty>ONG:</IncidentProperty>
+          <IncidentValue> {incident.name} de {incident.city}/{incident.uf}  </IncidentValue>
 
-          <Text style={styles.incidentProperty}>CASO:</Text>
-          <Text style={styles.incidentValue}> {incident.title} </Text>
+          <IncidentProperty>CASO:</IncidentProperty>
+          <IncidentValue> {incident.title} </IncidentValue>
 
-          <Text style={styles.incidentProperty}>VALOR:</Text>
-          <Text style={styles.incidentValue}> {
+          <IncidentProperty>VALOR:</IncidentProperty>
+          <IncidentValue> {
           Intl.NumberFormat('pt-BR', {
             style: 'currency', 
             currency: 'BRL'
             }).format(incident.value)} 
-          </Text>
-      </View>
+          </IncidentValue>
+      </Incident>
 
 
-      <View style={styles.contactBox}>
-        <Text style={styles.heroTitle}>Salve o dia!</Text>
-        <Text style={styles.heroTitle}>Seja o heroi desse caso.</Text>
+      <ContactBox>
+        <HeroTitle>Salve o dia!</HeroTitle>
+        <HeroTitle>Seja o heroi desse caso.</HeroTitle>
 
-        <Text style={styles.heroDescription}>Entre em contato:</Text>
+        <HeroDescription>Entre em contato:</HeroDescription>
 
-      <View style={styles.actions}>
-        <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
-            <Text style={styles.actionText}>Whatsapp</Text>
-         </TouchableOpacity>
+      <Actions>
+        <ActionTouchable  onPress={sendWhatsapp}>
+            <ActionText>Whatsapp</ActionText>
+         </ActionTouchable>
 
-         <TouchableOpacity style={styles.action} onPress={sendMail}>
-            <Text style={styles.actionText}>E-mail</Text>
-         </TouchableOpacity>
-      </View>
-    </View>
-  </View>
+         <ActionTouchable  onPress={sendMail}>
+            <ActionText>E-mail</ActionText>
+         </ActionTouchable>
+      </Actions>
+    </ContactBox>
+  </Container>
  );
 }
+

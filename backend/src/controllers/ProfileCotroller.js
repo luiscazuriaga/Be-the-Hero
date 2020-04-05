@@ -9,8 +9,11 @@ module.exports = {
     const incidents = await connection('incidents')
     .where('ong_id',ong_id)
     .select('*')
-
-    return response.json(incidents);
+try{
+    return response.json(incidents);}
+    catch{
+      return (error , console.log(error))
+    }
   },
 
 

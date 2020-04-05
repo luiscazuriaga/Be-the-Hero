@@ -1,83 +1,80 @@
-import { StyleSheet } from 'react-native';
-import constants from 'expo-constants';
+import styled from 'styled-components/native'
+import Constants from 'expo-constants'
 
-export default StyleSheet.create({
-  container: {
-    flex:1,
-    paddingHorizontal:24,
-    paddingTop: constants.statusBarHeight + 20,
-    
-  },
+export const Container = styled.View`
+  flex: 1;
+  padding: 0 24px;
+  padding-top: ${Constants.statusBarHeight + 20}px;
+  background: ${(props) => props.theme.colors.background};
+`;
+export const Header = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const Incident = styled.View`
+  padding: 24px;
+  border-radius: 8px;
+  background-color: ${(props) => props.theme.colors.content};
+  margin-bottom: 16px;
+  margin-top: 48px;
+`;
 
-  header:{
-    
-    flexDirection:'row',
-    justifyContent:'space-between',
-    alignItems: 'center',
+export const ButtonTouchable = styled.TouchableOpacity`
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const IncidentProperty = styled.Text`
+  font-size: 14px;
+  color: ${(props) => props.theme.colors.text};
+  font-weight: bold;
+  margin-top: 24px;
+`;
 
-  },
-  
-  incident:{
-    
-    padding:24,
-    borderRadius:8,
-    backgroundColor:'#FFF',
-    marginBottom:16,
-    marginTop:48,
-  },
-    
-  incidentProperty:{
-      fontSize:14,
-      color: '#41414d',
-      fontWeight: "bold",
-      marginTop:24,
+export const IncidentValue = styled.Text`
+  margin-top: 8px;
+  font-size: 15px;
+  color: ${(props) => props.theme.colors.subtext};
+`;
+export const ContactBox = styled.View`
+  padding: 24px;
+  border-radius: 8px;
+  background-color: ${(props) => props.theme.colors.content};;
+  margin-bottom: 16px;
+`;
 
-  },
-  incidentValue:{
-      marginTop:8,
-      fontSize:15,
-      color:'#737380'
-  },
+export const HeroTitle = styled.Text`
+  font-weight: bold;
+  font-size: 20px;
+  color: ${(props) => props.theme.colors.text};
+  line-height: 30px;
+`;
 
-  contactBox:{
-    padding:24,
-    borderRadius:8,
-    backgroundColor:'#FFF',
-    marginBottom:16,
-    marginTop:48,
-  },
+export const HeroDescription = styled.Text`
+  font-size: 15px;
+  color:${(props) => props.theme.colors.subtext};
+  margin-top: 16px;
+  text-align: justify;
+`;
 
-  heroTitle:{
-   fontWeight:"bold",
-   fontSize:20,
-   color:'#13131a',
-   lineHeight:30,
-  },
-  heroDescription:{ 
-    fontSize:15,
-    color:'#737380',
-    marginTop:16,
-  },
+export const Actions = styled.View`
+  margin-top: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+`;
 
-  actions:{
-    marginTop:16,
-    flexDirection:'row',
-    justifyContent:"space-between",
-  },
+export const ActionTouchable = styled.TouchableOpacity`
+  background-color: ${(props) => props.theme.colors.secundary};
+  border-radius: 8px;
+  height: 50px;
+  width: 48%;
+  justify-content: center;
+  align-items: center;
+`;
 
-  action:{
-    backgroundColor:'#e02041',
-    borderRadius:8,
-    height:50,
-    width:'48%',
-    justifyContent:"center",
-    alignItems: "center",
-  },
-
-  actionText:{
-    color:'#FFF',
-    fontSize:15,
-    fontWeight:"bold",
-
-  },
-});
+export const ActionText = styled.Text`
+  color: ${(props) => props.theme.colors.content};
+  font-size: 15px;
+  font-weight: bold;
+`;

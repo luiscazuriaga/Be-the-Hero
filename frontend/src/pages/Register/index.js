@@ -1,6 +1,7 @@
-import React ,{useState}from 'react';
+import React ,{useState , useContext}from 'react';
 import {FiArrowLeft} from 'react-icons/fi';
 import {Link, useHistory} from 'react-router-dom';
+import { ThemeContext } from 'styled-components'
 
 import api from '../../services/api';
 import './styles.css';
@@ -36,13 +37,14 @@ try{
   alert("Erro no cadastro, tente novamente.")
 }
   }     
-  
+
+  const { logo } = useContext(ThemeContext)
   return(
 
         <div className="register-container">
              <div className="content">
                  <section>
-                   <img src={LogoImg} alt="Be the Heroes"/>
+                   <img src={logo} alt="Be the Heroes"/>
 
                    <h1>Cadastro</h1>
                    <p>Faça seu cadastro, entre na plataforma e ajude as pessoas a encontrarem os casos da sua ONG.</p>

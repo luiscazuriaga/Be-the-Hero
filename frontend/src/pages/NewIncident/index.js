@@ -1,6 +1,7 @@
-import React , {useState} from 'react';
+import React, { useState, useContext } from 'react'
 import {Link , useHistory} from 'react-router-dom';
 import {FiArrowLeft} from 'react-icons/fi'
+import { ThemeContext } from 'styled-components'
 
 import api from '../../services/api'
 
@@ -39,13 +40,14 @@ const history = useHistory();
 
       }
 
+      const { logo } = useContext(ThemeContext)
        return(
 
         
         <div className="new-incident-container">
              <div className="content">
                  <section>
-                   <img src={LogoImg} alt="Be the Heroes"/>
+                   <img src={logo} alt="Be the Heroes"/>
 
                    <h1>Cadastrar novo caso</h1>
                    <p>Descreva o texto detalhadamente para encontrar um Herói para resolver isso</p>

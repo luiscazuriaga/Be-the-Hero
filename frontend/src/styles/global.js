@@ -1,4 +1,13 @@
+import {createGlobalStyle} from 'styled-components'
+
+
+
+
+
+export default createGlobalStyle`
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
 
 *{
 
@@ -11,8 +20,9 @@
 body{
 
   font:400 14px Roboto, sans-serif;
-  background: #f0f0f5;
+  background: ${(props) => props.theme.colors.background};
   -webkit-font-smoothing: antialiased;
+  color:  ${(props) => props.theme.colors.text};
 }
 
 input, button, textarea{
@@ -31,6 +41,7 @@ form input{
     border: 1px solid #dcdce6;
     border-radius: 8px;
     padding: 0 24px;
+    color:  ${(props) => props.theme.colors.text};
     
 }
 
@@ -44,6 +55,7 @@ form textarea {
     border-radius: 8px;
     padding: 16px 24px;
     line-height: 24px;
+    color:  ${(props) => props.theme.colors.background};
 }
 
 .button {
@@ -76,7 +88,7 @@ form textarea {
     align-items: center;
     margin-top: 40px;
     color: #41414d;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.2s; 
@@ -92,3 +104,4 @@ form textarea {
     opacity: 0.8;
 
 }
+`

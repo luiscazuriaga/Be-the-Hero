@@ -23,8 +23,14 @@ module.exports = {
        'ongs.uf',
     ]);
 
+    try {
       response.header('X_Total_Count', count['count(*)']);
       return response.json(incidents);
+    }catch{
+      (error)
+    }
+
+
 
  },
 
