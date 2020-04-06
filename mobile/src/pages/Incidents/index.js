@@ -21,6 +21,9 @@ import {
   DetailsButtonText,
 } from './styles';
 
+import dark from '../../assets/logodark.png'
+import light from '../../assets/logo.png'
+
 export default function Incidents(){
   const [incidents , setIncidents] = useState([]);
   const [total, setTotal] = useState(0); 
@@ -60,14 +63,15 @@ useEffect(()=>{
   loadIncidents();
 },[])
 
-
-const { logo } = useContext(ThemeContext)
+/* Resolução do problema: //**Failed Warning: Failed prop type: Invalid prop `source` supplied to `Image`.*/
+const { title } = useContext(ThemeContext)
+  const logo = title === 'dark' ? dark : light
 
 return(
 
 <Container>
     <Header>
-      <Image source={logo} />
+    <Image source={logo} />
        <HeaderText>
          Total de <HeaderTextBold>{total} casos</HeaderTextBold>. 
        </HeaderText>  

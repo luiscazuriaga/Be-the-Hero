@@ -6,7 +6,7 @@ import { ThemeContext } from 'styled-components'
 import api from '../../services/api';
 import './styles.css';
 
-import LogoImg from '../../assets/logo.svg'
+
 
 export default function Register(){
    const [name, setName] = useState('');  
@@ -49,9 +49,9 @@ try{
                    <h1>Cadastro</h1>
                    <p>Faça seu cadastro, entre na plataforma e ajude as pessoas a encontrarem os casos da sua ONG.</p>
 
-                   <Link className="back-link" to="/register">
+                   <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#E02041" />
-                        Não tenho cadastro
+                        já tenho cadastro
                    </Link>
                  </section>
 

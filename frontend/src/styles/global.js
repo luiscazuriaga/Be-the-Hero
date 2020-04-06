@@ -10,7 +10,6 @@ export default createGlobalStyle`
 
 
 *{
-
     margin: 0;
     padding: 0;
     outline: 0;
@@ -22,7 +21,7 @@ body{
   font:400 14px Roboto, sans-serif;
   background: ${(props) => props.theme.colors.background};
   -webkit-font-smoothing: antialiased;
-  color:  ${(props) => props.theme.colors.text};
+  color:  ${(props) => props.theme.colors.titlescolor};
 }
 
 input, button, textarea{
@@ -41,7 +40,7 @@ form input{
     border: 1px solid #dcdce6;
     border-radius: 8px;
     padding: 0 24px;
-    color:  ${(props) => props.theme.colors.text};
+    color:  ${(props) => props.theme.colors.input};
     
 }
 
@@ -55,7 +54,7 @@ form textarea {
     border-radius: 8px;
     padding: 16px 24px;
     line-height: 24px;
-    color:  ${(props) => props.theme.colors.background};
+    color:  ${(props) => props.theme.colors.input};
 }
 
 .button {
@@ -87,7 +86,7 @@ form textarea {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    color: #41414d;
+    color: ${(props) => props.theme.colors.return};
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -102,6 +101,63 @@ form textarea {
 .back-link:hover{
    
     opacity: 0.8;
+
+}
+
+.new-incident-container .content{
+ 
+    width: 100%;
+    padding: 96px;
+    background: ${(props) => props.theme.colors.content};
+    box-shadow: 0 0 100px rgba(0 ,0 ,0 , 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.profile-container ul li{
+
+background: ${(props) => props.theme.colors.content};
+padding: 24px;
+border-radius: 8px;
+position: relative;
+}
+
+.profile-container ul li button{
+
+background: ${(props) => props.theme.colors.content};
+position: absolute;
+right: 24px;
+top: 24px;
+border: 0;
+
+}
+
+
+.profile-container ul li p{
+
+color: #737380;
+line-height: 21px;
+font-size: 16px;
+}
+
+.register-container .content section h1{
+
+${(props) => props.theme.colors.titlescolor};
+margin:  64px 0 32px;
+font-size: 32px;
+
+}
+
+.register-container .content section p{
+
+font-size: 16px;
+color: #737380;
+line-height: 32px;
+
 
 }
 `

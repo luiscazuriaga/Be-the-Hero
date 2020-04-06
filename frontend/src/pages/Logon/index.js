@@ -8,7 +8,7 @@ import api from '../../services/api'
 import './styles.css'
 
 import HerosImg from '../../assets/heroes.png';
-import LogoImg from '../../assets/logo.svg'
+
 
 export default function Logon(){ 
     const [id, setID] = useState('');

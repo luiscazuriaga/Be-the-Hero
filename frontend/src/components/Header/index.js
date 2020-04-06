@@ -22,10 +22,10 @@ return(
         height={10}
         width={40}
         handleDiameter={20}
-        offColor={shade(0.2,colors.secundary)}
-        onColor={shade(0.5,colors.text)}
-        offHandleColor={colors.secundary}
-        onHandleColor={colors.text}
+        offColor={colors.secundary}
+        onColor={shade(0.5,colors.primary)}
+        offHandleColor={colors.content}
+        onHandleColor={colors.secundary}
       />
 </Container>
 );

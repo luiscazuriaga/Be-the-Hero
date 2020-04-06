@@ -20,7 +20,7 @@ export default function CustomDrawer({ toggleTheme, ...props}) {
       />
           
       <DrawerItem {...props}
-          label="Theme"
+          label="Tema"
           onPress={toggleTheme}
       />
     </DrawerContentScrollView>

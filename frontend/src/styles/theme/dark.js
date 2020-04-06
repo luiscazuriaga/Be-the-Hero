@@ -10,8 +10,12 @@ export default {
     secundary: '#E02041',
 
     background: '#0C090D',
-    text: '#F5F5F5',
+    text: '#fff',
     content: '#202020',
-    input: '#191919',
+    input: '#000',
+    header:'#302C2C',
+    titlescolor:'#fff',
+    return:'#999',
+  
   },
 }

@@ -20,6 +20,8 @@ import {
   ActionTouchable,
   ActionText,} from './styles';
 
+  import dark from '../../assets/logodark.png'
+  import light from '../../assets/logo.png'
 
 export default function Detail(){
   const navigation = useNavigation();
@@ -46,12 +48,14 @@ export default function Detail(){
 
  
 
-  const { logo } = useContext(ThemeContext)
+  const { title } = useContext(ThemeContext)
+  const logo = title === 'dark' ? dark : light
+  
 
   return(
     <Container>
       <Header>
-        <Image source={logo} />
+      <Image source={logo} />
 
           <ButtonTouchable onPress={navigateBack}>
             <Feather name="arrow-left" size={28} color="#E02041" />

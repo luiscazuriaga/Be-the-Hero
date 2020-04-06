@@ -9,6 +9,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
-  background: ${(props) => props.theme.colors.primary};
+  background: ${(props) => props.theme.colors.header};
   color: ${(props) => props.theme.colors.text};
 `

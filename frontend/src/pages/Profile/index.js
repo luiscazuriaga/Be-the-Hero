@@ -7,7 +7,7 @@ import api from '../../services/api'
 
 import './styles.css';
 
-import Logoimg from '../../assets/logo.svg';
+
 
 export default function Profile(){
     const history = useHistory();

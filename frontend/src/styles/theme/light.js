@@ -10,7 +10,10 @@ export default {
 
     background: '#E6E6E6',
     text: '#0C090D',
-    content: '#F5F5F5',
-    input: '#fff',
+    content: '#FFF',
+    input: '#000',
+    header:'#0C090D',
+    titlescolor:'#000',
+    return:'#4B4848',
   },
 }
