@@ -1,6 +1,4 @@
-<h1 align="center">
-    <img alt="Be the Hero" src="frontend/src/assets/BTHtitle.png"  width="800px" style="border-radius:16px;"/>
-</h1>
+![BTH title](/frontend/src/assets/BTHtitle%20(2).gif)
 
 <p align="center">
   <img alt="Languagues" src="https://img.shields.io/github/languages/count/luis-cazuriaga/be-the-hero">
