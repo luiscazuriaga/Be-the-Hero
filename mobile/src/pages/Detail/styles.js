@@ -74,7 +74,7 @@ export const ActionTouchable = styled.TouchableOpacity`
 `;
 
 export const ActionText = styled.Text`
-  color: ${(props) => props.theme.colors.content};
+  color: ${(props) => props.theme.colors.titles};
   font-size: 15px;
   font-weight: bold;
 `;

@@ -14,5 +14,6 @@ export default {
     content: '#202020',
     input: '#191919',
     drawerBackGround: '#343633',
+    titles:'#FFF',
   },
 }

@@ -14,5 +14,6 @@ export default {
     content: '#F5F5F5',
     input: '#fff',
     drawerBackGround:'#E6E6E6',
+    titles:'#FFF',
   },
 }
